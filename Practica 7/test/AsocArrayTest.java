@@ -8,6 +8,9 @@ import org.junit.rules.ExpectedException;
 
 public class AsocArrayTest {
 
+
+	private AsocArray al;
+	
 	@Before
 	public void setUp(){
 		al = new AsocArray();
@@ -39,5 +42,11 @@ public class AsocArrayTest {
 		assertEquals("uno",al.getOrElse("primero","defalut"));
 		assertEquals("default",al.getOrElse("segundo","default"));
 	}
+	
+	@Test
+	public void ImplementacionDeLaOperacionContainsKey(){
+
+	}
+
 	
 }
