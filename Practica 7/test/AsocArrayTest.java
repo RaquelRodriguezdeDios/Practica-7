@@ -49,6 +49,12 @@ public class AsocArrayTest {
 		assertEquals(true,al.containsKey("primero"));
 		assertEquals(false,al.containsKey("segundo"));
 	}
+	
+	@Test
+	public void ImplementacionDeLaOperacionRemove(){
+
+	}
+	
 
 	
 }
