@@ -73,7 +73,14 @@ public class AsocArrayTest {
 	
 	@Test
 	public void CambiarValorExistente(){
-
+		al.put("primero","uno");
+		assertEquals("uno",al.get("primero"));
+		al.put("primero","1");
+		assertEquals("1",al.get("primero"));
+		al.put("segundo","dos");
+		assertEquals("dos",al.get("segundo"));
+		al.put("segundo","2");
+		assertEquals("2",al.get("segundo"));
 	}
 	
 
