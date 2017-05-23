@@ -85,7 +85,12 @@ public class AsocArrayTest {
 	
 	@Test
 	public void IntentoDeGetSobreElementoExistente() throws Exception {
-
+		al.put("primero", "uno");
+		al.put("segundo", "dos");
+		al.put("tercero", "tres");
+		assertEquals("uno",al.get("primero"));
+		assertEquals("dos",al.get("segundo"));
+		assertEquals("tres",al.get("tercero"));
 	}
 	
 	
