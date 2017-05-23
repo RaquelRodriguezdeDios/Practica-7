@@ -52,7 +52,14 @@ public class AsocArrayTest {
 	
 	@Test
 	public void ImplementacionDeLaOperacionRemove(){
-
+		al.put("primero", "uno");
+		al.put("segundo", "dos");
+		al.put("tercero", "tres");
+		assertEquals(true,al.remove("primero"));
+		assertEquals(false,al.containsKey("primero"));
+		assertEquals(true,al.remove("segundo"));
+		assertEquals(false,al.containsKey("segundo"));
+		assertEquals(true,al.containsKey("tercero"));
 	}
 	
 
