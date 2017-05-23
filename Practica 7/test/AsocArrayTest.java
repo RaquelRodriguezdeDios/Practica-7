@@ -62,6 +62,12 @@ public class AsocArrayTest {
 		assertEquals(true,al.containsKey("tercero"));
 	}
 	
+	@Test
+	public void EliminarUltimoElementoDeLaLista(){
 
+	}
+	
+	
+	
 	
 }
