@@ -35,7 +35,9 @@ public class AsocArrayTest {
 	
 	@Test
 	public void ImplementacionDeLaOperacionGetOrElse(){
-
+		al.put("primero","uno");
+		assertEquals("uno",al.getOrElse("primero","defalut"));
+		assertEquals("default",al.getOrElse("segundo","default"));
 	}
 	
 }
