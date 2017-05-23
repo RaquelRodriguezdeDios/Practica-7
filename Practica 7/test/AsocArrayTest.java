@@ -83,7 +83,10 @@ public class AsocArrayTest {
 		assertEquals("2",al.get("segundo"));
 	}
 	
+	@Test
+	public void IntentoDeGetSobreElementoExistente() throws Exception {
 
+	}
 	
 	
 }
