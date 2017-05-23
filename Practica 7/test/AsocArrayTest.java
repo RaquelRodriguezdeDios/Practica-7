@@ -16,7 +16,9 @@ public class AsocArrayTest {
 	@Test
 	public void AñadirEntradaEnElArrayList(){
 
-
+		al.put("primero","uno");
+		assertEquals("uno",al.get("primero"));		
+		
 	}
 	
 	@Rule
