@@ -64,7 +64,11 @@ public class AsocArrayTest {
 	
 	@Test
 	public void EliminarUltimoElementoDeLaLista(){
-
+		al.put("primero", "uno");
+		al.put("segundo", "dos");
+		al.put("tercero", "tres");
+		assertEquals(true,al.remove("tercero"));
+		assertEquals(false,al.containsKey("tercero"));
 	}
 	
 	
