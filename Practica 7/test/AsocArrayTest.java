@@ -45,7 +45,9 @@ public class AsocArrayTest {
 	
 	@Test
 	public void ImplementacionDeLaOperacionContainsKey(){
-
+		al.put("primero","uno");
+		assertEquals(true,al.containsKey("primero"));
+		assertEquals(false,al.containsKey("segundo"));
 	}
 
 	
