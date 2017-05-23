@@ -8,6 +8,19 @@ import org.junit.rules.ExpectedException;
 
 public class AsocArrayTest {
 
+	@Before
+	public void setUp(){
+		al = new AsocArray();
+	}
+	
+	@Test
+	public void AñadirEntradaEnElArrayList(){
 
+
+	}
+	
+	@Rule
+	public ExpectedException except = ExpectedException.none();
+	
 	
 }
