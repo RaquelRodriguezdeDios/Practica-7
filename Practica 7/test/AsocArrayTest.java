@@ -71,7 +71,12 @@ public class AsocArrayTest {
 		assertEquals(false,al.containsKey("tercero"));
 	}
 	
+	@Test
+	public void CambiarValorExistente(){
+
+	}
 	
+
 	
 	
 }
