@@ -24,5 +24,10 @@ public class AsocArrayTest {
 	@Rule
 	public ExpectedException except = ExpectedException.none();
 	
+	@Test
+	public void LaFuncionGetElevaUnaException(){
+
+
+	}
 	
 }
