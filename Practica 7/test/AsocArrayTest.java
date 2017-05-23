@@ -27,7 +27,10 @@ public class AsocArrayTest {
 	@Test
 	public void LaFuncionGetElevaUnaException(){
 
-
+		except.expect(ExcepcionClave.class);
+		except.expectMessage("Clave no encontrada");
+		al.get("a");		
+		
 	}
 	
 }
